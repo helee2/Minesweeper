@@ -1,9 +1,9 @@
 
 
 import de.bezier.guido.*;
-private final static int NUM_ROWS = 20;
-private final static int NUM_COLS = 20;
-private final static int NUM_BOMBS = 10;
+private final static int NUM_ROWS = 40;
+private final static int NUM_COLS = 40;
+private final static int NUM_BOMBS = 100;
 //Declare and initialize NUM_ROWS and NUM_COLS = 20
 private MSButton[][] buttons; //2d array of minesweeper buttons
 private ArrayList <MSButton> bombs; //ArrayList of just the minesweeper buttons that are mined
